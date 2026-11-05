@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme inline {
+    --font-sans: var(--font-ibm-mono), monospace;
+    --font-mono: var(--font-ibm-mono), monospace;
+    --color-text: var(--text);
+    --color-text-2: var(--text-2);
+    --color-line: var(--line);
+    --color-line-2: var(--line-2);
+    --color-line-3: var(--line-3);
+    --color-hover: var(--hover);
+    --text-meta: 13px;
+    --text-nav: 13.5px;
+}
+
+:root {
+    --background: #0a0a0a;
+    --text: #ededef;
+    --text-2: #c4c4cc;
+    --hover: #18181b;
+    --line: #1f1f23;
+    --line-2: #2a2a2f;
+    --line-3: #3a3a41;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font-ibm-mono), monospace;
+}
